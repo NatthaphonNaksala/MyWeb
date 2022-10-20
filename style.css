@@ -1,0 +1,54 @@
+html,body{
+    background-color: deepskyblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-footer{
+    background-color: #000000;
+}
+
+.menu-item{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-emphasis: none;
+}
+
+.screen{
+    background-color: skyblue;
+    padding: 25px;
+    margin: 30px;
+}
+
+
+.image{
+    width: 30%;
+    height: 40%;
+}
+.button{
+    color: purple;
+    background-color: hotpink;
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    padding: 5px;
+    text-emphasis: none;
+}
+
+.bottom-footer{
+    background-color: orange;
+    color: purple;
+    padding: 10px;
+
+}
+.welcome{
+    align-content: center;
+    border: solid 10px peru;
+    background-color: orange;
+    color: purple;
+    padding: 2%;
+    margin: 5%;
+    margin-left: 25%;
+    margin-right: 25% ;    
+}

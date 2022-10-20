@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">     
+            <link rel="stylesheet" href="style-table.css">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="bootstrap.min.css">
+
+            <title>วิธีชำระเงิน</title>
+            <style>
+                .postion{
+                    background-color: skyblue;
+                    border: solid 5px powderblue;
+                    margin-top: 3%;
+                    margin-left: 25%;
+                    margin-right: 25%;
+                    padding: 15px;
+                }
+                .topic{
+                    margin-left: 32%;
+                }
+                .back{
+                    margin-left: 45%;
+                }
+                .form{
+                    margin-left: 5%;
+                    padding: 3%;
+                }
+                .th{
+                    margin-left: 37%;
+                }
+               
+            </style>
+        </head>    
+        <body class="postion"> 
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="main.html">หน้าหลัก</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarColor02">
+                        <ul class="navbar-nav me-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="product.php">สินค้า🛒
+                              <span class="visually-hidden">(current)</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="selectCus.php">ข้อมูลลูกค้า🤵</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="promotion.php">โปรโมชั่น🏷️</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">ติดต่อ📞</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="pay.html">การชำระเงิน💰</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="feedback.html">ความคิดเห็น✉️</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="price.html">คำนวณเงิน💸</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                            <a class="btn btn-success my-2 my-sm-0" href="main.html">ย้อนกลับ</a>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                </header>
+            <h3 class="topic" >กรุณาเลือกวิธีชำระเงิน </h3>
+            <img class="img" src="pay.jpg" alt="" width="915px" height="350px">
+            <form class="form">
+                <div class="frame">
+
+                <input type="radio" name="pay" value="" >mobile banking <br>
+                <input type="radio" name="pay" value="" >wallet <br>
+                <input type="radio" name="pay" value="" >walletcredit card <br>
+
+                </select> <br>
+                กรุณาเลือกวันเวลาที่โอนเงิน <br>
+                <input type="datetime-local" name="dtl"><br>
+               <h5 class="th">ขอบคุณที่ใช้บริการ</h5> 
+            </div>  
+            </form>
+         </body> 
+        </html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">                
+    <link rel="stylesheet" href="style-table.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ตารางสินค้า</title>
+    <style>
+        .postion{
+            background-color: skyblue;
+            border: solid 5px powderblue;
+            margin-top: 3%;
+            margin-left: 25%;
+            margin-right: 25%;
+            padding: 15px;
+        }
+        .link{
+            margin-left: 29%;
+        }
+        .back{
+            margin-left: 45%;
+        }
+        .table{
+            margin-left: 25%;
+            padding: 3%;
+            text-align: center;
+
+        }
+       
+    </style>
+</head>
+    <body class="postion">
+        <table class="table" >
+            
+            <caption><b>กรุณาเลือกสินค้า</b></caption>
+            <tr>
+                <th>ลำดับ</th>
+                <th>ชื่อสินค้า</th>
+                <th>ภาพสินค้า</th>
+                <th>รายละเอียด</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>แชมพู</td>
+                 <td><img src="champoo.jpg" width="200" height="210"></td>
+            <td> <a href="detail-champoo.html"> รายละเอียดแชมพู </a></td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>ครีมนวดผม</td>
+                 <td><img src="conditioner.jpg" width="200" height="210"></td>
+            <td> <a href="detail-conditioner.html"> รายละเอียดครีมนวดผม </a></td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>ผงซักฟอก</td>
+                 <td><img src="washing powder.jpg" width="200" height="210"></td>
+            <td> <a href="detail-washingpowder.html"> รายละเอียดผงซักฟอก </a></td>
+            </tr>
+
+        </table> <br>
+        <a class="link" href="insertproduct.php">เพิ่มสินค้า</a>
+        <a class="link" href="editproduct.php">แก้ไขสินค้า</a>
+        <br> <br> <br> <br> 
+        <a class="back" href="main.html">กลับสู่หน้าหลัก</a>
+
+    </body>
+</html>
